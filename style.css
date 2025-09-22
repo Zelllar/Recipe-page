@@ -18,7 +18,7 @@
 }
 
 main {
-    max-width: 736px;
+    max-width: 46rem;
     width: 100%;
 }
 
@@ -242,13 +242,14 @@ body {
 .recipe-image img {
     width: 100%;
     max-width: 656px;
-    height: 300px;
+    height: auto;
     border-radius: 12px;
     object-fit: cover;
     object-position: center;
+    aspect-ratio: 656 / 300;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {
 
     body {
         padding: 0;
