@@ -34,7 +34,7 @@ body {
 }
 
 .card-wrapper {
-    padding: 0 12px;
+    padding: 0 0.75rem;
     box-sizing: border-box;
 }
 
@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 736px;
+    max-width: 46rem;
     gap: 2rem;
     padding: 2.5rem;
     border-radius: 24px;
@@ -124,7 +124,7 @@ body {
     gap: 1.5rem;
 }
 
-.recipe-ingredients h3 {
+.recipe-ingredients h2 {
     font-family: "Young Serif", serif;
     color: var(--brown800);
     font-size: 1.75rem;
@@ -152,6 +152,7 @@ body {
 }
 
 .line {
+    border: none;
     border-bottom: 1px solid;
     color: var(--stone150);
 }
@@ -162,7 +163,7 @@ body {
     gap: 1.5rem;
 }
 
-.recipe-instructions h4 {
+.recipe-instructions h2 {
     color: var(--brown800);
     font-family: "Young Serif", serif;
     font-size: 1.75rem;
@@ -201,7 +202,7 @@ body {
     gap: 1.5rem;
 }
 
-.recipe-nutrition h5 {
+.recipe-nutrition h2 {
     font-family: "Young Serif", serif;
     color: var(--brown800);
     font-size: 1.75rem;
@@ -228,7 +229,7 @@ body {
 }
 
 .nutrition-table td {
-    padding: 12px 12px 12px 32px;
+    padding: 0.75rem 0.75rem 0.75rem 2rem;
     border-bottom: 1px solid var(--stone150);
 }
 
@@ -241,7 +242,7 @@ body {
 
 .recipe-image img {
     width: 100%;
-    max-width: 656px;
+    max-width: 41rem;
     height: auto;
     border-radius: 12px;
     object-fit: cover;
