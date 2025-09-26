@@ -266,7 +266,7 @@ body {
 
     .recipe-image img {
         border-radius: 0;
-        margin: -40px -40px 0 -40px;
+        margin: -2.5rem -2.5rem 0 -2.5rem;
         width: calc(100% + 80px);
     }
 
